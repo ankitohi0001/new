@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AuthContext } from "../store/auth-context";
+import { AuthContext } from "../auth/auth-context";
 import AuthContent from "../components/AuthContent";
 import LoadingOverlay from "../Ui.js/Loadingoverlay";
 import { login } from "../util/auth";
